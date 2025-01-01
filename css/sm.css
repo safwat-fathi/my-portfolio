@@ -1,0 +1,22 @@
+@media (min-width: 576px) {
+  :root {
+    font-size: 12px;
+  }
+
+  main {
+    padding-top: 10vh;
+  }
+
+  section.about .about_contact h1 {
+    font-size: 6rem;
+  }
+
+  section.portfolio .portfolio_gallery {
+    display: flex;
+    flex-flow: column;
+  }
+
+  section.portfolio .portfolio_gallery .project {
+    width: min-content;
+  }
+}

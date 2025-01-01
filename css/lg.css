@@ -1,0 +1,36 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    padding-left: 17rem;
+  }
+
+  section {
+    padding: 0 1.5rem;
+  }
+
+  nav {
+    width: unset;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .nav_pic, .nav_logo {
+    display: block;
+  }
+
+  nav ul.menu {
+    display: block;
+  }
+
+  ul.menu li:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  nav ul.menu a {
+    font-size: 1.2rem;
+  }
+
+  section.portfolio .portfolio_gallery .project {
+    width: 17rem;
+  }
+}
